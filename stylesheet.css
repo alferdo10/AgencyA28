@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #2669EF;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float:left;
+  padding: 15px 20px;
+}
+
+.header-logo img {
+    height: 60px;
+    width: auto;
+}
+
+.header-list {
+  float:right;
+  margin-right: 40px;
+}
+
+.header-list li {
+  font-family: Arial;
+  float: left;
+  padding: 20px 20px;
+}
+
+.header-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none !important;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.top-wrapper {
+    padding-top: 100px;
+    padding-bottom: 450px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #1E14AE;
+}
+
+.top {
+  float: left;
+  width: 50%;
+  color: white;
+}
+
+.top-left{
+  padding-top: 70px;
+  text-align: left;
+  color: white;
+}
+
+.top-left h2{
+  font-size: 16px;
+}
+
+.top-left h1{
+  font-size: 56px;
+  line-height: 65px;
+}
+
+.top-left p{
+  font-size: 16px;
+  padding-right: 25%;
+  line-height: 20px;
+}
+  
+.top-button {
+  color: white;
+  background-color: #2669ef;
+  padding: 18px 30px 18px 30px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px 15px 15px 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 7px #467ae2;
+}
+
+.top-button:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.top-wrapper img {
+  display: block;
+  width: 100%;
+}
+
+.clear {
+  clear: left;
+}
+
+.container-wrapper {
+  width: 1170px;
+  padding: 0 15px;
+}
+
+.content-wrapper {
+  padding-bottom: 40px;
+  padding-left: 7%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h1 {
+  color: #2669EF;
+  font-size: 50px;
+}
+
+.heading p {
+  color: #b3aeb5;
+  font-style: inherit;
+  line-height: 1.5;
+  padding: 0 30px;
+  text-align: inherit;
+}
+
+.content {
+  float: left;
+  width: 23%;
+  border-style: solid;
+  border-radius: 5%;
+  border-width: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+  margin: 0px 20px 0px 0px;
+  padding: 40px 40px 10px 40px;
+}
+
+.content-icon {
+  position: relative;
+}
+
+.content-icon p {
+  font-weight: bold;
+  width: 100%;
+  color: #2669EF;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.container-team {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.team-wrapper {
+  background-color: #fff;
+  text-align: center;
+}
+
+.heading-team h1 {
+  padding-top: 30px;
+  color: #2669EF;
+  font-size: 50px;
+}
+
+.heading-team p {
+  color: #b3aeb5;
+  font-style: inherit;
+  line-height: 1.5;
+  padding: 0 30px;
+  text-align: inherit;
+}
+
+.teams {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 850px;
+}
+
+.team-list {
+  color: #fff;
+  width: 50%;
+  float: left;
+}
+
+.team-icon {
+  position: relative;
+  width: 90%;
+  padding: 20px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.foto {
+  height: 150px;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.name {
+  position: absolute;
+  top: 20px;
+  padding-left: 170px;
+  padding-right: 10px;
+  width: 100%;
+  color: #2669EF;
+  font-size: 40px;
+}
+
+.position {
+  position: absolute;
+  top: 90px;
+  padding-left: 170px;
+  width: 60%;
+  color: #2669EF;
+  font-size: 18px;
+}
+
+.btn-sosmed {
+  text-align: right;
+  padding-top: 30px;
+}
+
+.btn {
+  padding: 10px 15px;
+  color: #2669EF;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+    border-style: solid;
+    color: #2669EF;
+}
+
+.footer {
+  background-color: #2669EF;
+  color: #fff;
+  height: 350px;
+}
+
+.footer-img {
+    height: 150px;
+    width: auto;
+    margin: 20px;
+    float: left;
+}
+
+.contact-form {
+    padding-top: 10px;
+    float: left;
+    margin-left: 150px;
+}
+
+.contact-form p {
+    padding: 0;
+    margin: 0;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 12px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #1E14AE;
+    color: #fff;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a1196;
+}
+
+.contact-submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.footer-list {
+    float: right;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.footer-list li {
+  font-family: Arial;
+  font-size: 20px;
+  padding: 12px;
+  margin-right: 200px;
+}
